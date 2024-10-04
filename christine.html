@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Boutique de Cheveux</title> <!-- ch -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(to right, #aa5fff, #feb47b); /* Dégradé */
+}
+
+</style>
+    
+</body>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+header h1 {
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner {
+    background: url('banner.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.banner h2 {
+    font-size: 3rem;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.products-section {
+    padding: 2rem;
+    background-color: #f7f7f7;
+}
+
+.products-section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product {
+    text-align: center;
+    max-width: 200px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.testimonials-section {
+    background-color: #333;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.testimonials-section h2 {
+    margin-bottom: 2rem;
+}
+
+.testimonial {
+    margin-bottom: 1.5rem;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer a {
+    color: #f39c12;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+    </style>
+</body>
+    
+</body>
+    <!-- En-tête -->
+    <header>
+        <div class="logo">
+            <h1> CHRISTINE CLARK OWEN </h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#produits">Produits</a></li>
+                <li><a href="#avis">Avis</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <a href="#connexion" class="btn">Connexion</a>
+            <a href="#deconnexion" class="btn">Déconnexion</a>
+        </div>
+    </header>
+
+    <!-- Section Bannière -->
+    <section class="banner">
+        <div class="banner-text">
+            <h2>Les meilleures perruques et tresses pour sublimer votre look</h2>
+            <a href="#produits" class="btn">Voir les produits</a>
+        </div>
+    </section>
+
+    <!-- Section Produits vedettes -->
+    <section id="produits" class="products-section">
+        <h2>Nos produits vedettes</h2>
+        <div class="products">
+            <div class="product">
+                <img src="OIP (1).jpg" alt="Produit 1">
+                <h3>Produit 1</h3>
+                <p>Cheveux naturels, tresses, etc.</p>
+                <p class="price">Prix : 120 $</p> <!-- Ajout du prix -->
+            </div>
+            <div class="product">
+                <img src="ccc.jpg" alt="Produit 2">
+                <h3>Produit 2</h3>
+                <p>Perruques de qualité supérieure.</p>
+                <p class="price">Prix : 150 $</p> <!-- Ajout du prix -->
+            </div>
+            <div class="product">
+                <img src="bbb.jpg" alt="Produit 3">
+                <h3>Produit 3</h3>
+                <p>Tresses et extensions uniques.</p>
+                <p class="price">Prix : 170 $</p> <!-- Ajout du prix -->
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section Avis clients -->
+    <section id="avis" class="testimonials-section">
+        <h2>"Merci d'avoir choisi notre boutique ! Votre satisfaction est notre priorité. Nous vous serions très reconnaissants de partager votre expérience avec nous. Vos retours nous aident à nous améliorer et à offrir le meilleur à nos clients."</h2>
+        <div class="testimonial">
+            <p>"Service incroyable, produits de qualité !"</p>
+            <h4>- Client 1</h4>
+        </div>
+        <div class="testimonial">
+            <p>"Les meilleures perruques que j'ai jamais achetées."</p>
+            <h4>- Client 2</h4>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 Ma Boutique de Cheveux | <a href="#">Confidentialité</a> | <a href="#">Conditions</a></p>
+    <div class="social-media">
+        <a href="https://www.instagram.com/ton_nom_utilisateur" target="_blank">Instagram</a> | 
+        <a href="https://www.facebook.com/ton_nom_utilisateur" target="_blank">Facebook</a> | 
+        <a href="#">Twitter</a>
+        
+    </footer>
+</body>
+</html>
